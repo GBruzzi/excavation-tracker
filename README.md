@@ -5,6 +5,18 @@ A aplicação possui autenticação de pesquisadores,
 permitindo o gerenciamento seguro de pontos. O projeto foi desenvolvido com uma arquitetura moderna e robusta, utilizando **Next.js** para o front-end, 
 **Nest.js** para o back-end e **PostgreSQL** como banco de dados.
 
+Principais funcionalidades:
+- **Cadastro e Login de Pesquisadores**: Sistema de autenticação para que os pesquisadores possam ter seu espaço pessoal.
+- **Cadastro de Pontos**: Os pesquisadoress podem adicionar, editar e visualizar seus pontos.
+- **Listagem de Pontos**: Os potos cadastrados são listados.
+- **Exclusão de pontos**: Os pesquisadores podéme excluir os próprios pontos.
+
+## Diferenciais
+- **JWT (JSON Web Token)**: A autenticação é realizada por meio de tokens JWT, garantindo sessões seguras e protegendo os dados dos usuários, com um sistema de autenticação moderno e eficaz.
+ - **Tabela de pesquisadores**: A tabela de pesquisadores foi devidamente implementada e mais do que isso, foi feito um sistema de cadastro e login para controlar melhor a dinâmica do negócio.
+  - **Rotas protegidas**: As rotas foram devidamente testadas e protegidas, no qual para realizar o CRUD de pontos, é necessário o usuário estar devidamente logado como pesquisador .
+  - **Associação entre tabelas**: As tabelas de pesquisadores e pontos estão devidamente conectadas seguindo a lógica proposta pelo desafio .
+
 ##  Decisões de Implementação e Boas Práticas
 
 ### Stack de Tecnologias
